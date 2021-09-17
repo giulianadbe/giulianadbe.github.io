@@ -11,6 +11,7 @@ import './App.css';
 
 import Home from './Home';
 import Blog from './Blog';
+import Footer from './Footer';
 
 const App = () => (
   <>
@@ -40,6 +41,11 @@ const App = () => (
           <Route path="/blog"><Blog/></Route>
         </Switch>
       </Container>
+
+      <Container className="p-3">
+        <Footer/>
+      </Container>
+
     </Router>
   </>
 );
