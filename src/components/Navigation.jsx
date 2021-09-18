@@ -10,7 +10,7 @@ const Navigation = () => {
     <>
       <Navbar>
       <Container>
-        <Link to="/home" style={{ textDecoration: 'none' }}><Navbar.Brand><span style={{ fontSize:'30px' }}>Giuliana De Bellis</span></Navbar.Brand></Link>
+        <Link to="/home" style={{ textDecoration: 'none' }}><Navbar.Brand><span style={{ fontSize:'30px', color: '#4FBF26' }}>Giuliana De Bellis</span></Navbar.Brand></Link>
         <Navbar.Toggle />
 
         <Navbar.Collapse className="justify-content-end">
