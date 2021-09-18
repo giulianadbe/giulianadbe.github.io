@@ -10,26 +10,12 @@ const Navigation = () => {
     <>
       <Navbar>
       <Container>
-        <Link to="/home" style={{ textDecoration: 'none' }}>
-          <Navbar.Brand>
-            <span style={{ fontSize:'30px', color:'#4FBF26' }}>
-              Giuliana De Bellis
-            </span>
-          </Navbar.Brand>
-        </Link>
+        <Link to="/home" style={{ textDecoration: 'none' }}><Navbar.Brand><span style={{ fontSize:'30px' }}>Giuliana De Bellis</span></Navbar.Brand></Link>
         <Navbar.Toggle />
 
         <Navbar.Collapse className="justify-content-end">
-          <Nav.Link>
-            <Link to="/home" style={{ textDecoration: 'none' }}>
-              <span className="navbar-fnt">Home</span>
-            </Link>
-          </Nav.Link>
-          <Nav.Link>
-            <Link to="/blog" style={{ textDecoration: 'none' }}>
-              <span className="navbar-fnt">Blog</span>
-              </Link>
-          </Nav.Link>
+          <Nav.Link><Link to="/home" style={{ textDecoration: 'none' }}><span className="navbar-fnt">Home</span></Link></Nav.Link>
+          <Nav.Link><Link to="/blog" style={{ textDecoration: 'none' }}><span className="navbar-fnt">Blog</span></Link></Nav.Link>
         </Navbar.Collapse>
 
       </Container>

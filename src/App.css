@@ -25,15 +25,11 @@
 }
 
 .App-link {
-  color: #4FBF26;
+  color: #61dafb;
 }
 
 .navbar-fnt {
-  color: #4FBF26;
-}
-
-.navbar-fnt:hover {
-  color: lightgreen;
+  color: #11CAF0;
 }
 
 .subtitle {
@@ -44,11 +40,11 @@
 .footer-icon {
   padding: 5px;
   cursor: pointer;
-  color: #4FBF26;
+  color: #212529;
 }
 
 .footer-icon:hover {
-  color: lightgreen;
+  color: gray;
 }
 
 .horizontal-line {
@@ -57,9 +53,4 @@
   margin-right: 12;
   padding-top: 10;
   padding-bottom: 10;
-}
-
-.btn-custom {
-  background-color: #4FBF26;
-  color: white;
 }
